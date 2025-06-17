@@ -24,9 +24,7 @@ Business Impact : Untuk menentukan strategy mengurangi tingkat churn customer
 - Model Evaluated : XGBClassifier, KNeighborsClassifier
 
 # Hyperparameter Turning
-- Approach :
-  - GridSearchCV (RandomForestRegressor)
-  - RandomizedSearchCV (XGBRegressor)
+- Approach : RandomizedSearchCV (KNeighborsClassifier, XGBClassifier,RandomForestClassifier)
 - Scoring Metrics: Recall, Precision, F1-Score, ROC-AUC
 
 # Kesimpulan Final Model
